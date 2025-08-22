@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDP - Solar Data Pull</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Fixed Header -->
+    <header class="main-header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                <img src="images/logo.png" alt="SDP Logo">
+                <h1 id="title">SDP-SOLAR DATA PULL</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                
+            </nav>
+        </div>
+    </header>
+<!-- Header spacer -->
+    <div class="header-spacer"></div>
+    
+    <!-- Hero Section -->
+    
+        <section id="home" class="hero-section">
+    <div class="hero-banner">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="images/landing.mp4" type="video/mp4">
+            <!-- <source src="videos/solar-hero-background.webm" type="video/webm"> -->
+            <!-- Fallback image if video doesn't load -->
+            <!-- <img src="images/solar-panels-hero.jpg" alt="Solar Panels"> -->
+        </video>
+        <div class="hero-overlay"></div>
+    </div>
+<div class="hero-content">
+  <h1 id="heading">SDP – Solar  Data  Pull</h1>
+  <p id="subheadline">Your Solar,  Smarter</p>
+  <a href="#contact" class="btn btn-primary">Contact Us</a>
+</div>
+    <script>
+  function animateText(id, className, delayStep = 0.05) {
+    const element = document.getElementById(id);
+    const text = element.innerText;
+    element.innerHTML = ''; // Clear original text
+
+    [...text].forEach((char, index) => {
+      const span = document.createElement('span');
+      span.textContent = char;
+      span.className = className;
+      span.style.animationDelay = `${index * delayStep}s`;
+      element.appendChild(span);
+    });
+  }
+
+  window.onload = () => {
+    animateText('heading', 'heading-letter', 0.05);      // From right
+    animateText('subheadline', 'subheadline-letter', 0.05);  // From left
+  };
+</script>
+
+</section>
+    <!-- Features Section -->
+    <section id="features" class="features">
+    <h2>Why Choose SDP?</h2>
+    <div class="features-grid">
+        <div class="feature-box">
+            <div class="feature-img-container">
+                <img src="images/uni3.png" alt="Universal RS232">
+            </div>
+            <h3>Universal RS232 Inverter Support</h3>
+            <p>Compatible with all major solar inverter brands and models.</p>
+        </div>
+        <div class="feature-box">
+            <div class="feature-img-container">
+                <img src="images/remote.jpeg" alt="Remote Configuration">
+            </div>
+            <h3>Remote Configuration</h3>
+            <p>Model-specific setup without on-site visits.</p>
+        </div>
+        <div class="feature-box">
+            <div class="feature-img-container">
+                <img src="images/uni4.jpeg" alt="Secure Cloud">
+            </div>
+            <h3>Secure Cloud Connectivity</h3>
+            <p>Built-in SIM slot for reliable data transmission.</p>
+        </div>
+        <div class="feature-box">
+            <div class="feature-img-container">
+                <img src="images/uni6.jpeg" alt="Rugged Design">
+            </div>
+            <h3>Industrial-grade Rugged Design</h3>
+            <p>Built to withstand harsh environmental conditions.</p>
+        </div>
+    </div>
+</section>
+
+    <!-- Use Cases Section -->
+    <section id="usecases" class="use-cases">
+        <div class="container">
+            <div class="section-content">
+                <h2>Who Can Benefit?</h2>
+                <p>SDP is designed for solar professionals across the industry:</p>
+                <ul>
+                    <li>Solar EPCs</li>
+                    <li>O&M Companies</li>
+                    <li>Utility-scale Installations</li>
+                    <li>Rooftop Installations</li>
+                    <li>Community Solar Projects</li>
+                    
+                </ul>
+                <ul class="ul1">
+                    <li>Solar Asset Managers</li>
+                    <li>Solar Monitoring Providers</li>
+                    <li>Solar Inverter Manufacturers</li>
+                    <li>Solar System Integrators</li>
+                    <li>Solar Project Developers</li>
+                 </ul>
+            </div>
+            <div class="section-image">
+                <img src="images/panel.jpeg" alt="Solar Farm">
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="product" class="product">
+        <div class="container">
+            <img src="images/modem.png" alt="SDP Modem" class="product-img">
+            <div class="product-details">
+                <h3>SDP Solar Modem</h3>
+                <p>Industrial-grade enclosure with wide power input range (12-48V DC) and built-in SIM slot for reliable cellular connectivity in remote locations.</p>
+                <h1>Features</h1>
+                <ul>
+                    <li>Protocol Support</li>
+                    <li>Data Logging</li>
+                    <li>Internet Connectivity</li>
+                    <li>Plug & Play Setup</li>
+                    <li>Secure Cloud Push</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us to Purchase or Partner</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="company" name="company" placeholder="Company">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" placeholder="Phone">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="SDP Logo">
+                </div>
+                <div class="footer-contact">
+                    <p>#39 Car Street,Manglore</p>
+                    <p>Karnataka,India-570532</p>
+                    <p>Phone:+91 8310904854</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Solar Data Pull. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" class="scroll-top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
