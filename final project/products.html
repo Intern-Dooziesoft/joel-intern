@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Doozie Client (Doozie Client)</title>
+    <meta name="description" content="Explore Doozie Client's range of high-quality engines and auto parts. Discover our innovative engine technologies and automotive solutions.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Helvetica:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Doozie Client Logo" class="logo-img">
+                        <span class="logo-text">Doozie Client</span>
+                    </a>
+                </div>
+                
+                <nav class="nav-desktop">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="company.html" class="nav-link">Company</a></li>
+                        <li><a href="products.html" class="nav-link active">Products</a></li>
+                        <li><a href="newsroom.html" class="nav-link">Newsroom</a></li>
+                        <li><a href="public.html" class="nav-link">Public</a></li>
+                        <li><a href="careers.html" class="nav-link">Careers</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-actions">
+                    <button class="search-toggle" id="searchToggle" aria-label="Search">
+                        <span class="material-icons-outlined">search</span>
+                    </button>
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menu">
+                        <span class="material-icons-outlined">menu</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="search-bar" id="searchBar">
+                <div class="search-input-wrapper">
+                    <input type="text" class="search-input" placeholder="Search Doozie Client..." aria-label="Search">
+                    <button class="search-submit" aria-label="Submit search">
+                        <span class="material-icons-outlined">search</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav-header">
+            <div class="logo">
+                <img src="images/logo.png" alt="Doozie Client Logo">
+                <span>Doozie Client</span>
+            </div>
+            <button class="mobile-nav-close" id="mobileNavClose">
+                <span class="material-icons-outlined">close</span>
+            </button>
+        </div>
+        <ul class="mobile-nav-list">
+            <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+            <li><a href="company.html" class="mobile-nav-link">Company</a></li>
+            <li><a href="products.html" class="mobile-nav-link active">Products</a></li>
+            <li><a href="newsroom.html" class="mobile-nav-link">Newsroom</a></li>
+            <li><a href="public.html" class="mobile-nav-link">Public</a></li>
+            <li><a href="careers.html" class="mobile-nav-link">Careers</a></li>
+            <li><a href="contact.html" class="mobile-nav-link">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <div class="page-header-content">
+                    <h1 class="page-title">Our Products</h1>
+                    <p class="page-subtitle">Discover our range of high-quality engines and auto parts engineered for excellence</p>
+                    <nav class="page-breadcrumb">
+                        <a href="index.html">Home</a>
+                        <span class="breadcrumb-separator">/</span>
+                        <span>Products</span>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Categories -->
+        <section class="product-categories">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Product Categories</h2>
+                    <p class="section-subtitle">Comprehensive range of automotive solutions for diverse applications</p>
+                </div>
+                
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <span class="material-icons-outlined">settings</span>
+                        </div>
+                        <h3>Engines</h3>
+                        <p>High-performance engines for automotive, industrial, and marine applications</p>
+                        <a href="#engines" class="category-link">Explore Engines</a>
+                    </div>
+                    
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <span class="material-icons-outlined">build</span>
+                        </div>
+                        <h3>Auto Parts</h3>
+                        <p>Precision-engineered components for optimal vehicle performance</p>
+                        <a href="#auto-parts" class="category-link">Explore Parts</a>
+                    </div>
+                    
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <span class="material-icons-outlined">eco</span>
+                        </div>
+                        <h3>Eco Solutions</h3>
+                        <p>Environmentally friendly technologies and hybrid solutions</p>
+                        <a href="#eco-solutions" class="category-link">Explore Solutions</a>
+                    </div>
+                    
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <span class="material-icons-outlined">precision_manufacturing</span>
+                        </div>
+                        <h3>Custom Solutions</h3>
+                        <p>Tailored engineering solutions for specific requirements</p>
+                        <a href="#custom-solutions" class="category-link">Explore Custom</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Engines Section -->
+        <section class="engines-section" id="engines">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Engine Range</h2>
+                    <p class="section-subtitle">Powering the future with innovative engine technologies</p>
+                </div>
+                
+                <div class="engines-grid">
+                    <div class="engine-card">
+                        <div class="engine-image">
+                            <img src="images/product/10001.jpeg" alt="Doozie Client-1000 Engine" class="engine-img">
+                            <div class="engine-overlay">
+                                <button class="view-3d-btn" data-engine="Doozie Client-1000">View 3D Model</button>
+                            </div>
+                        </div>
+                        <div class="engine-content">
+                            <h3>Doozie Client-1000 Series</h3>
+                            <p class="engine-description">Compact, fuel-efficient engines ideal for small vehicles and industrial applications</p>
+                            
+                            <div class="engine-specs">
+                                <div class="spec-item">
+                                    <span class="spec-label">Displacement:</span>
+                                    <span class="spec-value">1.0L - 1.2L</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Power Output:</span>
+                                    <span class="spec-value">65-85 HP</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Fuel Type:</span>
+                                    <span class="spec-value">Petrol/Diesel</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Emission:</span>
+                                    <span class="spec-value">BS-VI Compliant</span>
+                                </div>
+                            </div>
+                            
+                            <div class="engine-features">
+                                <span class="feature-tag">Fuel Efficient</span>
+                                <span class="feature-tag">Low Emissions</span>
+                                <span class="feature-tag">Compact Design</span>
+                            </div>
+                            
+                            <div class="engine-actions">
+                                <button class="btn btn-primary btn-sm">Download Specs</button>
+                                <button class="btn btn-secondary btn-sm">Request Quote</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="engine-card">
+                        <div class="engine-image">
+                            <img src="images/product/2001.jpeg" alt="Doozie Client-2000 Engine" class="engine-img">
+                            <div class="engine-overlay">
+                                <button class="view-3d-btn" data-engine="Doozie Client-2000">View 3D Model</button>
+                            </div>
+                        </div>
+                        <div class="engine-content">
+                            <h3>Doozie Client-2000 Series</h3>
+                            <p class="engine-description">Mid-range engines delivering balanced performance and efficiency for commercial vehicles</p>
+                            
+                            <div class="engine-specs">
+                                <div class="spec-item">
+                                    <span class="spec-label">Displacement:</span>
+                                    <span class="spec-value">1.8L - 2.2L</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Power Output:</span>
+                                    <span class="spec-value">120-150 HP</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Fuel Type:</span>
+                                    <span class="spec-value">Petrol/Diesel</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Emission:</span>
+                                    <span class="spec-value">BS-VI Compliant</span>
+                                </div>
+                            </div>
+                            
+                            <div class="engine-features">
+                                <span class="feature-tag">High Performance</span>
+                                <span class="feature-tag">Durable</span>
+                                <span class="feature-tag">Versatile</span>
+                            </div>
+                            
+                            <div class="engine-actions">
+                                <button class="btn btn-primary btn-sm">Download Specs</button>
+                                <button class="btn btn-secondary btn-sm">Request Quote</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="engine-card">
+                        <div class="engine-image">
+                            <img src="images/product/3000.jpeg" alt="Doozie Client-3000 Engine" class="engine-img">
+                            <div class="engine-overlay">
+                                <button class="view-3d-btn" data-engine="Doozie Client-3000">View 3D Model</button>
+                            </div>
+                        </div>
+                        <div class="engine-content">
+                            <h3>Doozie Client-3000 Series</h3>
+                            <p class="engine-description">High-performance engines for heavy-duty applications and premium vehicles</p>
+                            
+                            <div class="engine-specs">
+                                <div class="spec-item">
+                                    <span class="spec-label">Displacement:</span>
+                                    <span class="spec-value">2.5L - 3.0L</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Power Output:</span>
+                                    <span class="spec-value">180-220 HP</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Fuel Type:</span>
+                                    <span class="spec-value">Petrol/Diesel</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Emission:</span>
+                                    <span class="spec-value">BS-VI Compliant</span>
+                                </div>
+                            </div>
+                            
+                            <div class="engine-features">
+                                <span class="feature-tag">High Power</span>
+                                <span class="feature-tag">Premium Quality</span>
+                                <span class="feature-tag">Advanced Tech</span>
+                            </div>
+                            
+                            <div class="engine-actions">
+                                <button class="btn btn-primary btn-sm">Download Specs</button>
+                                <button class="btn btn-secondary btn-sm">Request Quote</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Auto Parts Section -->
+        <section class="auto-parts-section" id="auto-parts">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Auto Parts & Components</h2>
+                    <p class="section-subtitle">Precision-engineered components for optimal performance and reliability</p>
+                </div>
+                
+                <div class="parts-grid">
+                    <div class="part-category">
+                        <h3>Engine Components</h3>
+                        <div class="parts-list">
+                            <div class="part-item">
+                                <img src="images/product/b.jpeg" alt="Pistons" class="part-image">
+                                <div class="part-info">
+                                    <h4>Pistons & Rings</h4>
+                                    <p>High-quality pistons and piston rings for optimal engine performance</p>
+                                    <div class="part-specs">
+                                        <span>Material: Forged Aluminum</span>
+                                        <span>Coating: Thermal Barrier</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="part-item">
+                                <img src="images/product/c.jpeg" alt="Crankshafts" class="part-image">
+                                <div class="part-info">
+                                    <h4>Crankshafts</h4>
+                                    <p>Precision-balanced crankshafts for smooth engine operation</p>
+                                    <div class="part-specs">
+                                        <span>Material: Forged Steel</span>
+                                        <span>Balance: ±2g</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="part-item">
+                                <img src="images/product/a.jpeg" alt="Camshafts" class="part-image">
+                                <div class="part-info">
+                                    <h4>Camshafts</h4>
+                                    <p>Performance camshafts for optimal valve timing and engine efficiency</p>
+                                    <div class="part-specs">
+                                        <span>Material: Billet Steel</span>
+                                        <span>Profile: Performance</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="part-category">
+                        <h3>Fuel System</h3>
+                        <div class="parts-list">
+                            <div class="part-item">
+                                <img src="images/product/n.jpeg" alt="Fuel Injectors" class="part-image">
+                                <div class="part-info">
+                                    <h4>Fuel Injectors</h4>
+                                    <p>High-precision fuel injectors for optimal fuel delivery</p>
+                                    <div class="part-specs">
+                                        <span>Type: Electronic</span>
+                                        <span>Flow Rate: Variable</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="part-item">
+                                <img src="images/product/a.jpeg" alt="Fuel Pumps" class="part-image">
+                                <div class="part-info">
+                                    <h4>Fuel Pumps</h4>
+                                    <p>Reliable fuel pumps for consistent fuel pressure</p>
+                                    <div class="part-specs">
+                                        <span>Type: Electric</span>
+                                        <span>Pressure: 3-5 Bar</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="part-category">
+                        <h3>Cooling System</h3>
+                        <div class="parts-list">
+                            <div class="part-item">
+                                <img src="https://images.unsplash.com/photo-1597852074816-d933c7d2b988?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Radiators" class="part-image">
+                                <div class="part-info">
+                                    <h4>Radiators</h4>
+                                    <p>Efficient cooling radiators for optimal engine temperature control</p>
+                                    <div class="part-specs">
+                                        <span>Material: Aluminum</span>
+                                        <span>Core: Multi-row</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="part-item">
+                                <img src="images/product/e.jpeg" alt="Thermostats" class="part-image">
+                                <div class="part-info">
+                                    <h4>Thermostats</h4>
+                                    <p>Precision thermostats for accurate temperature regulation</p>
+                                    <div class="part-specs">
+                                        <span>Type: Wax Pellet</span>
+                                        <span>Opening: 82°C</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Eco Solutions Section -->
+        <section class="eco-solutions-section" id="eco-solutions">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Eco-Friendly Solutions</h2>
+                    <p class="section-subtitle">Leading the transition to sustainable automotive technologies</p>
+                </div>
+                
+                <div class="eco-solutions-grid">
+                    <div class="eco-solution-card">
+                        <div class="eco-icon">
+                            <span class="material-icons-outlined">electric_car</span>
+                        </div>
+                        <h3>Hybrid Engine Systems</h3>
+                        <p>Advanced hybrid technology combining internal combustion with electric power for reduced emissions and improved efficiency.</p>
+                        <ul class="eco-features">
+                            <li>30% reduction in fuel consumption</li>
+                            <li>Lower CO2 emissions</li>
+                            <li>Regenerative braking system</li>
+                            <li>Seamless power transition</li>
+                        </ul>
+                        <div class="eco-stats">
+                            <div class="eco-stat">
+                                <span class="stat-number">30%</span>
+                                <span class="stat-label">Fuel Savings</span>
+                            </div>
+                            <div class="eco-stat">
+                                <span class="stat-number">25%</span>
+                                <span class="stat-label">Emission Reduction</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="eco-solution-card">
+                        <div class="eco-icon">
+                            <span class="material-icons-outlined">battery_charging_full</span>
+                        </div>
+                        <h3>Electric Vehicle Components</h3>
+                        <p>Complete range of EV components including motors, controllers, and battery management systems for electric vehicles.</p>
+                        <ul class="eco-features">
+                            <li>High-efficiency electric motors</li>
+                            <li>Advanced battery management</li>
+                            <li>Fast charging compatibility</li>
+                            <li>Extended range optimization</li>
+                        </ul>
+                        <div class="eco-stats">
+                            <div class="eco-stat">
+                                <span class="stat-number">95%</span>
+                                <span class="stat-label">Motor Efficiency</span>
+                            </div>
+                            <div class="eco-stat">
+                                <span class="stat-number">400km</span>
+                                <span class="stat-label">Range</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="eco-solution-card">
+                        <div class="eco-icon">
+                            <span class="material-icons-outlined">eco</span>
+                        </div>
+                        <h3>Biofuel Compatibility</h3>
+                        <p>Engines designed to run on sustainable biofuels, reducing dependency on fossil fuels and lowering carbon footprint.</p>
+                        <ul class="eco-features">
+                            <li>Bioethanol compatibility</li>
+                            <li>Biodiesel support</li>
+                            <li>Flex-fuel technology</li>
+                            <li>Sustainable sourcing</li>
+                        </ul>
+                        <div class="eco-stats">
+                            <div class="eco-stat">
+                                <span class="stat-number">40%</span>
+                                <span class="stat-label">Carbon Reduction</span>
+                            </div>
+                            <div class="eco-stat">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Biofuel Ready</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Custom Solutions Section -->
+        <section class="custom-solutions-section" id="custom-solutions">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Custom Engineering Solutions</h2>
+                    <p class="section-subtitle">Tailored solutions designed to meet your specific requirements</p>
+                </div>
+                
+                <div class="custom-solutions-content">
+                    <div class="custom-text">
+                        <h3>Bespoke Engineering</h3>
+                        <p>
+                            At Doozie Client, we understand that every application has unique requirements. Our custom engineering 
+                            team works closely with clients to develop tailored solutions that perfectly match their needs.
+                        </p>
+                        
+                        <div class="custom-services">
+                            <div class="service-item">
+                                <span class="service-icon">
+                                    <span class="material-icons-outlined">design_services</span>
+                                </span>
+                                <div class="service-content">
+                                    <h4>Custom Design</h4>
+                                    <p>Specialized engine designs for specific applications and requirements</p>
+                                </div>
+                            </div>
+                            
+                            <div class="service-item">
+                                <span class="service-icon">
+                                    <span class="material-icons-outlined">precision_manufacturing</span>
+                                </span>
+                                <div class="service-content">
+                                    <h4>Precision Manufacturing</h4>
+                                    <p>High-precision manufacturing processes for custom components</p>
+                                </div>
+                            </div>
+                            
+                            <div class="service-item">
+                                <span class="service-icon">
+                                    <span class="material-icons-outlined">science</span>
+                                </span>
+                                <div class="service-content">
+                                    <h4>R&D Support</h4>
+                                    <p>Research and development support for innovative solutions</p>
+                                </div>
+                            </div>
+                            
+                            <div class="service-item">
+                                <span class="service-icon">
+                                    <span class="material-icons-outlined">support_agent</span>
+                                </span>
+                                <div class="service-content">
+                                    <h4>Technical Support</h4>
+                                    <p>Comprehensive technical support and after-sales service</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <a href="contact.html" class="btn btn-primary">Discuss Your Requirements</a>
+                    </div>
+                    
+                    <!-- <div class="custom-image">
+                        <img src="https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Custom Engineering Process" class="rounded-lg shadow-lg">
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Customer Testimonials</h2>
+                    <p class="section-subtitle">What our customers say about Doozie Client products and services</p>
+                </div>
+                
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <blockquote>
+                                "Doozie Client engines have consistently delivered exceptional performance and reliability in our 
+                                commercial vehicles. The fuel efficiency improvements have significantly reduced our 
+                                operational costs."
+                            </blockquote>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Customer" class="author-image">
+                            <div class="author-info">
+                                <h4>Mr. Rajesh Agarwal</h4>
+                                <p>Fleet Manager, TransLogistics India</p>
+                                <div class="rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <blockquote>
+                                "The quality of Doozie Client auto parts is outstanding. We've been using their components 
+                                for over 5 years and have experienced zero failures. Their technical support team 
+                                is also very responsive."
+                            </blockquote>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Customer" class="author-image">
+                            <div class="author-info">
+                                <h4>Ms. Priya Sharma</h4>
+                                <p>Service Manager, AutoCare Plus</p>
+                                <div class="rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <blockquote>
+                                "Doozie Client's custom engineering solutions helped us develop a specialized engine for our 
+                                marine application. Their expertise and commitment to quality exceeded our expectations."
+                            </blockquote>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Customer" class="author-image">
+                            <div class="author-info">
+                                <h4>Capt. Arun Kumar</h4>
+                                <p>Technical Director, Marine Solutions Ltd</p>
+                                <div class="rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content text-center">
+                    <h2>Ready to Experience Doozie Client Quality?</h2>
+                    <p>Get in touch with our team to discuss your requirements and discover how our products can benefit your business</p>
+                    <div class="cta-actions">
+                        <a href="contact.html" class="btn btn-primary">Contact Sales Team</a>
+                        <a href="#" class="btn btn-secondary">Download Catalog</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="Doozie Client Logo">
+                        <span>Doozie Client</span>
+                    </div>
+                    <p class="footer-description">
+                        Doozie Client - Engineering excellence, innovation, and sustainability 
+                        for a better tomorrow.
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="company.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Products</h4>
+                    <ul class="footer-links">
+                        <li><a href="#engines">Engines</a></li>
+                        <li><a href="#auto-parts">Auto Parts</a></li>
+                        <li><a href="#eco-solutions">Eco Solutions</a></li>
+                        <li><a href="#custom-solutions">Custom Solutions</a></li>
+                    </ul>
+                </div>
+                
+               <div class="footer-section">
+  <h4>Connect</h4>
+  <div class="social-links">
+    <a href="https://www.youtube.com" target="_blank" class="social-link" aria-label="YouTube">
+      <span class="material-icons-outlined">play_circle</span>
+    </a>
+    <a href="https://github.com" target="_blank" class="social-link" aria-label="GitHub">
+      <span class="material-icons-outlined">code</span>
+    </a>
+    <a href="https://twitter.com" target="_blank" class="social-link" aria-label="Twitter">
+      <span class="material-icons-outlined">alternate_email</span>
+    </a>
+  </div>
+</div>
+                    <div class="contact-info">
+                        <p>Email: info@Doozie Client.co.in</p>
+                        <p>Phone: +91-XXX-XXXXXXX</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 Doozie Client. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 3D Model Viewer Modal -->
+    <div class="modal" id="modelModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">3D Engine Model</h3>
+                <button class="modal-close" id="modalClose">
+                    <span class="material-icons-outlined">close</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="model-viewer" id="modelViewer">
+                    <div class="model-placeholder">
+                        <span class="material-icons-outlined">3d_rotation</span>
+                        <p>3D Model Viewer</p>
+                        <p class="model-info">Interactive 3D model of the selected engine</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
